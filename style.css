@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+.card-img-top{
+    width:100%;
+    height:2000px;
+    object-fit:contain;
+}
+.admin_image {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+     /* Debugging border */
+}
+
+.cart_img {
+    width: 80px; /* Set desired width */
+    height: 80px;  /* Maintain aspect ratio */
+   object-fit:contain;
+}
+
+.logo {
+    width: 50px;  /* Adjust to the desired width */
+    height: 50px; /* Keep the aspect ratio consistent */
+    object-fit: cover; /* Ensure the image fits properly */
+    object-position: center; /* Center the logo */
+}
+.form-outline {
+    margin-bottom: 30px; /* Adjust spacing as needed */
+}
